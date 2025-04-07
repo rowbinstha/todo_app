@@ -1,0 +1,13 @@
+*.dart linguist-language=Dart
+
+# Mark native and build-related files as vendored (ignored from stats)
+android/** linguist-vendored
+ios/** linguist-vendored
+macos/** linguist-vendored
+windows/** linguist-vendored
+linux/** linguist-vendored
+*.cmake linguist-vendored
+*.cpp linguist-vendored
+*.c linguist-vendored
+*.h linguist-vendored
+*.swift linguist-vendored
